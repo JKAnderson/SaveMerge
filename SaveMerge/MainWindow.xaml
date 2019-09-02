@@ -1,0 +1,18 @@
+﻿<Window x:Class="SaveMerge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SaveMerge"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="646" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <local:SavePanel x:Name="savePanel1" Grid.Column="0" Header="Save 1" Background="White"/>
+        <local:SavePanel x:Name="savePanel2" Grid.Column="1" Header="Save 2" Background="White"/>
+    </Grid>
+</Window>
