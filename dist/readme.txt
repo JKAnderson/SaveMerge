@@ -12,7 +12,7 @@ https://dotnet.microsoft.com/download/thank-you/net48
 # Instructions
 
 First, find the save file(s) you want to edit. The standard Steam location is as follows:
-C:\Users\<your username>\AppData\Roaming\DarkSoulsIII\<your Steam ID>\DS30000.sl2
+C:\Users\<your username>\AppData\Roaming\DarkSoulsIII\<encoded Steam ID>\DS30000.sl2
 You can go straight to the Roaming folder by entering %appdata% in the File Explorer address bar.
 
 Drag and drop the save file onto either the left or right panel in SaveMerge; you can open two different saves at once to move characters between them.
@@ -24,6 +24,7 @@ SteamID3s usually look like this: [U:1:12345678]
 The part that's needed for the save is just the last number, in this case 12345678. Type or paste it into the text box labeled SteamID3.
 
 After editing, use the Save buttons at the bottom of the window to save either of the opened files.
+The original file will be backed up with the .bak extension, if you need to restore it.
 
 
 # Credits
