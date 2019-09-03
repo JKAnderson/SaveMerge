@@ -1,5 +1,6 @@
 ﻿using SoulsFormats;
 using System;
+using System.Media;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -28,6 +29,8 @@ namespace SaveMerge
             try
             {
                 DataContext = new SL2(path);
+                if (!silent)
+                    SystemSounds.Asterisk.Play();
             }
             catch (Exception ex)
             {
@@ -81,6 +84,7 @@ namespace SaveMerge
             {
                 SFUtil.Backup(Save.Path);
                 Save.Write();
+                SystemSounds.Asterisk.Play();
             }
             catch (Exception ex)
             {
