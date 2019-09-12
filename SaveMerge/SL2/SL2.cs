@@ -27,7 +27,7 @@ namespace SaveMerge
             Path = path;
             bnd = BND4.Read(path);
             if (bnd.Files.Count != 12)
-                throw new NotSupportedException($"Unexcepted number of files in SL2: {bnd.Files.Count}");
+                throw new NotSupportedException($"Unexpected number of files in SL2: {bnd.Files.Count}");
 
             for (int i = 0; i < 12; i++)
             {

@@ -27,6 +27,13 @@ After editing, use the Save buttons at the bottom of the window to save either o
 The original file will be backed up with the .bak extension, if you need to restore it.
 
 
+# Bannability
+
+To the best of my knowledge, moving characters and altering Steam IDs is perfectly safe on its own.
+HOWEVER, many mules and other saves uploaded on Nexus have invalid data such as inconsistent soul memory, impossible key items, etc, which will get you banned regardless.
+Use this tool at your own risk.
+
+
 # Credits
 
 Atvaark - save research  
